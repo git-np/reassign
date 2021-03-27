@@ -76,7 +76,7 @@ public class LabRequestController {
         User user =userLoggedInService.getLoggedInUser();
 
         return testRequestQueryService.findByTester(user);
-
+        //test//
     }
 
 
